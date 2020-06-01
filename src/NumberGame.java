@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class NumberGame {
     public static void main(String[] args) {
-        int randomNum = (int) (Math.random() * 100) + 1;
+        int randomNum = (int) (Math.random() * 200) + 1;
         boolean winner = false;
 
         System.out.println("I have chosen a random number, guess what");
